@@ -15,19 +15,19 @@ if sys.getdefaultencoding() != default_encoding:
     sys.setdefaultencoding(default_encoding)
 
 ##date storage host info
-S_HOST = '192.168.1.114'
-S_USER = 'mystore_update'
-S_PASSWD = 'mystore2update@123'
-S_DBNAME = 'valentine0606'
+S_HOST = 'xxxx'
+S_USER = 'xxxx'
+S_PASSWD = 'xxx'
+S_DBNAME = 'xxxx'
 
 
 ##define mail server info
-mail_host = "smtp.e-future.com.cn"
-mail_user = "huangzhiyong@e-future.com.cn"
-mail_pass = "huang123"
-mail_postfix = "e-future.com.cn"
-mail_from = "huangzhiyong@e-future.com.cn"
-mail_tolist = ["zhaotc@e-future.com.cn","huangzhiyong@e-future.com.cn"]
+mail_host = "smtp.xxxx.com.cn"
+mail_user = "huangzhiyong@xxx.com.cn"
+mail_pass = "xxxx"
+mail_postfix = "xxxx.com.cn"
+mail_from = "huangzhiyong@xxxx.com.cn"
+mail_tolist = ["zhaotc@xxx.com.cn","huangzhiyong@xxxx.com.cn"]
 
 def send_mail(to_list,sub,content):
     """
